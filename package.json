@@ -1,0 +1,15 @@
+{
+  "name": "sassing",
+  "version": "1.0.0",
+  "description": "Sass to css npm script for usage",
+  "main": "app.js",
+  "scripts": {
+     "build-css": "node-sass --output-style compressed -o dist/css scss"
+  },
+  "keywords": [],
+  "author": "germancutraro",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+  }
+}
